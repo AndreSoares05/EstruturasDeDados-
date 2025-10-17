@@ -80,19 +80,16 @@ MainCircular.java
 
 🧮 Conceito Visual – Estruturas
 🔹 Lista Simples
-css
-Copiar código
 [10] → [20] → [30] → null
+
 🔸 Lista Dupla
-css
-Copiar código
 null ← [10] ⇄ [20] ⇄ [30] → null
+
 🔵 Lista Circular
-css
-Copiar código
 ↻ [10] ⇄ [20] ⇄ [30]
      ↑             ↓
      └─────────────┘
+     
 Esses diagramas representam o fluxo dos ponteiros entre os nós, tornando o comportamento das estruturas mais compreensível.
 
 
