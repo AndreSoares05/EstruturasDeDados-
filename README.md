@@ -87,8 +87,8 @@ null ← [10] ⇄ [20] ⇄ [30] → null
 
 🔵 Lista Circular
 ↻ [10] ⇄ [20] ⇄ [30]
-     ↑             ↓
-     └─────────────┘
+                 
+     
      
 Esses diagramas representam o fluxo dos ponteiros entre os nós, tornando o comportamento das estruturas mais compreensível.
 
