@@ -32,6 +32,7 @@ A aplicação utiliza **Java Swing** para criar uma **interface gráfica amigáv
 │   │   └── MainCircular.java
 │
 └── README.md  ← (este arquivo)
+
 💻 Funcionalidades
 Cada interface foi desenvolvida com foco na interatividade e simplicidade:
 
@@ -54,8 +55,6 @@ Estrutura	Características
 🔵 Lista Circular	O último nó aponta de volta ao primeiro, formando um ciclo contínuo.
 
 🧩 Exemplo de Interface – Lista Simples
-yaml
-Copiar código
 +------------------------------------------------+
 | Valor: [ 10 ] [Inserir] [Remover] [Listar]     |
 |------------------------------------------------|
@@ -64,14 +63,18 @@ Copiar código
 | ❌ Valor removido: 10                          |
 | 📋 Lista atual: 20 -> null                     |
 +------------------------------------------------+
+
 🪄 Como Executar o Projeto
 1️⃣ Abra o projeto em sua IDE Java preferida (Eclipse, IntelliJ ou NetBeans).
 2️⃣ Escolha a estrutura desejada (Simples, Dupla ou Circular).
 3️⃣ Execute o arquivo principal correspondente:
 
 MainSimples.java
+
 MainDuplo.java
+
 MainCircular.java
+
 4️⃣ A interface abrirá e você poderá testar as operações.
 
 
@@ -91,6 +94,7 @@ Copiar código
      ↑             ↓
      └─────────────┘
 Esses diagramas representam o fluxo dos ponteiros entre os nós, tornando o comportamento das estruturas mais compreensível.
+
 
 �
  Link do vídeo explicativo: 
