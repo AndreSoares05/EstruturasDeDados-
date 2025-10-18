@@ -30,6 +30,7 @@ A aplicação utiliza **Java Swing** para criar uma **interface gráfica amigáv
 │   │   ├── ListaCircular.java
 │   │   ├── TelaListaCircular.java
 │   │   └── MainCircular.java
+│   |   └── README
 
 
 💻 Funcionalidades
