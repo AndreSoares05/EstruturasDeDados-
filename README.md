@@ -92,10 +92,29 @@ null ← [10] ⇄ [20] ⇄ [30] → null
      
 Esses diagramas representam o fluxo dos ponteiros entre os nós, tornando o comportamento das estruturas mais compreensível.
 
+📝 Breve Explicação dos Códigos
+1. Lista Simples
+No.java: Define a classe No com um inteiro valor e um ponteiro proximo. É a unidade básica da lista.
+ListaSimples.java: Contém métodos como inserir, buscar, remover e listar, usando um nó inicio para gerenciar a lista unidirecional.
+TelaListaSimples.java: Cria a GUI com JTextField para entrada, botões (Inserir, Remover, Listar) e JTextArea para exibir a lista (ex: "10 -> 20 -> null").
+MainSimples.java: Classe principal que inicia a GUI com SwingUtilities.invokeLater.
 
+2. Lista Dupla
+No.java: Inclui valor, proximo e anterior, permitindo navegação bidirecional.
+ListaDupla.java: Implementa inserir, buscar, remover, listar (para frente) e listarReversa, usando inicio e fim para otimizar operações.
+TelaListaDupla.java: GUI com botões adicionais como "Listar Reversa", mostrando "10 <-> 20 <-> null" ou "20 <-> 10 <-> null".
+MainDuplo.java: Inicia a GUI da lista dupla.
+
+3. Lista Circular
+No.java: Similar à simples, mas o proximo fecha o ciclo.
+ListaCircular.java: Implementa inserir, buscar, remover e listar, com lógica para lidar com o ponteiro circular (ex: "10 -> 20 -> (circular)").
+TelaListaCircular.java: GUI básica com os mesmos botões, adaptada para a natureza circular.
+MainCircular.java: Inicia a GUI da lista circular.
 �
- Link do vídeo explicativo: 
-https:(//youtu.be/seuvideoexplicativo)
+ 
+ 
+🎥 Vídeo Explicativo
+Link do vídeo: https://youtu.be/seuvideoexplicativo
 
 
 👨‍💻 Autor
