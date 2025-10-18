@@ -114,7 +114,7 @@ MainCircular.java: Inicia a GUI da lista circular.
  
  
 🎥 Vídeo Explicativo
-Link do vídeo: https://youtu.be/seuvideoexplicativo
+Link do vídeo:(https://youtu.be/jmUObx2PFpw)
 
 
 👨‍💻 Autor
